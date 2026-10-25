@@ -1,0 +1,112 @@
+[
+    {
+        "name": "Apex Vector 60",
+        "cart": "apex_vector60.p8.png",
+        "html": "apex_vector60.html",
+        "date": "July 1, 2026",
+        "isMouseOnly": false,
+        "developersChoice": false,
+        "thumbnail": "apex_vector.gif",
+        "desc": "Futuristic amateur anti-gravity racing league."
+    },
+    {
+        "name": "Gingerbread Kingdom",
+        "cart": "gingerbread_kingdom.p8.png",
+        "html": "gingerbread_kingdom.html",
+        "date": "October 22, 2026",
+        "isMouseOnly": false,
+        "developersChoice": false,
+        "thumbnail": "gingerbread_kingdom.gif",
+        "desc": "Gingerbread RTS."
+    },
+    {
+        "name": "Lawnmower Polo",
+        "cart": "lawnmower_polo.p8.png",
+        "html": "lawnmower_polo.html",
+        "date": "October 22, 2026",
+        "isMouseOnly": false,
+        "developersChoice": false,
+        "thumbnail": "lawnmower_polo.gif",
+        "desc": "Lawnmower rocket league."
+    },
+    {
+        "name": "North Pole Delvers",
+        "cart": "north_pole_delvers.p8.png",
+        "html": "north_pole_delvers.html",
+        "date": "October 22, 2026",
+        "isMouseOnly": false,
+        "developersChoice": false,
+        "thumbnail": "north_pole_delvers.gif",
+        "desc": "Christmas themed diablo-like with tons of loot."
+    },
+    {
+        "name": "Turkey Strike",
+        "cart": "turkey_strike.p8.png",
+        "html": "turkey_strike.html",
+        "date": "October 22, 2026",
+        "isMouseOnly": false,
+        "developersChoice": false,
+        "thumbnail": "turkey_strike.gif",
+        "desc": "The Turkeys defend the cans of cranberry sauce from getting cooked. Counter Strike thanksgiving themed game."
+    },
+    {
+        "name": "Vile Vignettes",
+        "cart": "vile_vignettes.p8.png",
+        "html": "vile_vignettes.html",
+        "date": "October 25, 2026",
+        "isMouseOnly": true,
+        "developersChoice": true,
+        "thumbnail": "vile_vignettes.gif",
+        "desc": "You are a portrait painter for halloween monsters."
+    },
+    {
+        "name": "Quarter End: Bonus or Bust",
+        "cart": "quarter_end.p8.png",
+        "html": "quarter_end.html",
+        "date": "October 25, 2026",
+        "isMouseOnly": true,
+        "developersChoice": true,
+        "thumbnail": "quarter_end.gif",
+        "desc": "An incremental cookie making clicker, stock market simulator, match 3, whack-a-mole, slot machine game."
+    },
+    {
+        "name": "Spooky Pinball",
+        "cart": "spooky_pinball.p8.png",
+        "html": "spooky_pinball.html",
+        "date": "October 18, 2026",
+        "isMouseOnly": false,
+        "developersChoice": false,
+        "thumbnail": "spooky_pinball.gif",
+        "desc": "Halloween Pinball."
+    },
+    {
+        "name": "Midnight Haunt",
+        "cart": "midnight_haunt.p8.png",
+        "html": "midnight_haunt.html",
+        "date": "October 25, 2026",
+        "isMouseOnly": false,
+        "developersChoice": false,
+        "thumbnail": "midnight_haunt.gif",
+        "desc": "Ascend the haunted house in this halloween themed dungeon crawler."
+    },
+    {
+        "name": "Hallow's Eve-Scape",
+        "cart": "hallows_eve_scape.p8.png",
+        "html": "hallows_eve_scape.html",
+        "date": "October 23, 2026",
+        "isMouseOnly": false,
+        "developersChoice": false,
+        "thumbnail": "hallows_eve_scape.gif",
+        "desc": "You're a skeleton who has to get a randomized objective done before morning. Crafting and gathering skills and leveling up."
+    },
+    {
+        "name": "Holiday Hideaway",
+        "cart": "holiday_hideaway.p8.png",
+        "html": "holiday_hideaway.html",
+        "date": "October 24, 2026",
+        "isMouseOnly": false,
+        "developersChoice": false,
+        "thumbnail": "holiday_hideaway.gif",
+        "desc": "A maniac mansion like christmas point and click adventure."
+    }
+]

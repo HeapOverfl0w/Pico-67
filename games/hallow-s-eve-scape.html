@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hallow's Eve-Scape // PICO-67</title>
+<meta name="description" content="You're a skeleton who has to get a randomized objective done before morning. Crafting and gathering skills and leveling up.">
+<link rel="icon" href="../assets/favicon.svg">
+<link rel="stylesheet" href="../assets/style.css">
+<style>:root { --accent: #ff77a8; }</style>
+</head>
+<body class="page-game">
+<canvas id="leaves" aria-hidden="true"></canvas>
+<header class="site-header">
+  <a class="logo" href="../index.html" aria-label="PICO-67 home">
+    <span class="logo-mark" aria-hidden="true">
+  <i class="on"></i><i></i><i class="on"></i>
+  <i></i><i class="on"></i><i></i>
+  <i class="on"></i><i></i><i class="on"></i>
+</span>
+    <span class="logo-text">PICO-<span class="logo-num">67</span></span>
+  </a>
+  <nav class="header-nav"><a class="chip chip-dark" href="../index.html">&#9664; All games</a>
+    <span class="chip">Cart 05 / 11</span><form class="search" role="search" action="../index.html" data-index="../index.html">
+      <span class="search-mark" aria-hidden="true"></span>
+      <input id="site-search" name="q" type="search" placeholder="Search carts" autocomplete="off" spellcheck="false" aria-label="Search games">
+      <kbd class="search-key" aria-hidden="true">/</kbd>
+    </form></nav>
+</header>
+
+<main class="wrap">
+  <div class="crumbs">
+    <a class="chip" href="../index.html">&#9664; Back to shelf</a>
+    
+    
+    <span class="chip chip-dark">October 23, 2026</span>
+    <span class="chip chip-dark">PICO-8 cart</span>
+  </div>
+
+  <h1 class="game-title">Hallow's Eve-Scape</h1>
+  <div class="game-sub">hallows_eve_scape.p8.png &mdash; released October 23, 2026</div>
+
+  <!-- the game, dead centre -->
+  <section class="console">
+    <div class="console-bar">
+      <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="console-file">html/hallows_eve_scape/hallows_eve_scape.html</span>
+      <span class="console-hint">Click screen to boot</span>
+    </div>
+    <div class="screen">
+      <iframe src="../html/hallows_eve_scape/hallows_eve_scape.html"
+              title="Hallow's Eve-Scape"
+              loading="lazy"
+              allow="autoplay; fullscreen; gamepad; keyboard-map; xr-spatial-tracking"></iframe>
+    </div>
+  </section>
+
+  <div class="game-actions">
+    <a class="btn" href="../html/hallows_eve_scape/hallows_eve_scape.html" target="_blank" rel="noopener">&#9974; Open fullscreen</a>
+    <a class="btn btn-ghost" href="../carts/hallows_eve_scape.p8.png" download>&#11015; Download .p8.png</a>
+    <a class="btn btn-ghost" href="../index.html">&#9664; Shelf</a>
+  </div>
+
+  <section class="info-grid has-shot">
+    <div class="panel panel-shot">
+      <h2>Capture</h2>
+      <span class="thumb-frame thumb-frame-lg" data-thumb>
+        <img src="../imgs/hallows_eve_scape.gif" alt="Hallow's Eve-Scape gameplay capture" loading="lazy" decoding="async">
+        <span class="thumb-cue">&#9654; hover to play</span>
+      </span>
+      <p class="shot-note">hallows_eve_scape.gif &mdash; holds on frame one until you hover it.</p>
+    </div>
+    <div class="panel">
+      <h2>About this cart</h2>
+      <p>You're a skeleton who has to get a randomized objective done before morning. Crafting and gathering skills and leveling up.</p>
+      
+      <p style="margin-top:16px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:var(--c5)">
+        Data pulled straight from games.json &mdash; edit it and rerun <code>node build.js</code>.
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Controls</h2>
+      <ul class="keylist">
+        <li><kbd>&#8592;&#8593;&#8595;&#8594;</kbd> move</li>
+        <li><kbd>Z</kbd> &#9675; button</li>
+        <li><kbd>X</kbd> &#10005; button</li>
+        <li><kbd>Esc</kbd> pause</li>
+        <li><kbd>Ctrl+R</kbd> restart</li>
+      </ul>
+    </div>
+  </section>
+
+  <nav class="pager">
+    <a class="prev" href="../games/holiday-hideaway.html">
+      <span class="pager-lbl">&#9664; Previous cart</span>
+      <span class="pager-name">Holiday Hideaway</span>
+    </a>
+    <a class="next" href="../games/gingerbread-kingdom.html">
+      <span class="pager-lbl">Next cart &#9654;</span>
+      <span class="pager-name">Gingerbread Kingdom</span>
+    </a>
+  </nav>
+</main>
+
+<footer class="site-footer">
+  <span>PICO-67 // 11 cartridges in the vault</span>
+  <span>Built from <a href="../games.json">games.json</a> &mdash; powered by PICO-8</span>
+</footer>
+<script src="../assets/leaves.js" defer></script>
+<script src="../assets/thumbs.js" defer></script>
+<script src="../assets/search.js" defer></script>
+</body>
+</html>

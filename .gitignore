@@ -1,0 +1,69 @@
+# ============================================================
+# PICO-67
+# Everything the site actually serves is tracked on purpose:
+#   games.json, carts/, html/ (PICO-8 shells + runtime .js), imgs/ (GIF thumbs)
+#   and the generated index.html / 404.html / games/*.html
+# Keep the generated pages committed if you host straight off the branch
+# (GitHub Pages etc) — they are what the browser loads.
+# ============================================================
+
+# ---- operating system junk ----
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- editors / IDEs ----
+.vscode/
+.idea/
+.vs/
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ---- node / npm ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npm/
+*.tsbuildinfo
+
+# ---- local dev / serving artifacts ----
+.cache/
+.tmp/
+tmp/
+*.tmp
+*.bak
+*.log
+.serve-*
+.vercel/
+.netlify/
+workbox-*.js
+
+# ---- scratch / experiment files (files starting with _ are never part of the site) ----
+_*
+*.local.*
+games.local.json
+
+# ---- python (python -m http.server, tooling) ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- environment / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- PICO-8 / export leftovers ----
+*.p8.png.tmp
+*.lock.data
+.pico8_history/

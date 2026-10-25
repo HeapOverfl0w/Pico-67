@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vile Vignettes // PICO-67</title>
+<meta name="description" content="You are a portrait painter for halloween monsters.">
+<link rel="icon" href="../assets/favicon.svg">
+<link rel="stylesheet" href="../assets/style.css">
+<style>:root { --accent: #29adff; }</style>
+</head>
+<body class="page-game">
+<canvas id="leaves" aria-hidden="true"></canvas>
+<header class="site-header">
+  <a class="logo" href="../index.html" aria-label="PICO-67 home">
+    <span class="logo-mark" aria-hidden="true">
+  <i class="on"></i><i></i><i class="on"></i>
+  <i></i><i class="on"></i><i></i>
+  <i class="on"></i><i></i><i class="on"></i>
+</span>
+    <span class="logo-text">PICO-<span class="logo-num">67</span></span>
+  </a>
+  <nav class="header-nav"><a class="chip chip-dark" href="../index.html">&#9664; All games</a>
+    <span class="chip">Cart 01 / 11</span><form class="search" role="search" action="../index.html" data-index="../index.html">
+      <span class="search-mark" aria-hidden="true"></span>
+      <input id="site-search" name="q" type="search" placeholder="Search carts" autocomplete="off" spellcheck="false" aria-label="Search games">
+      <kbd class="search-key" aria-hidden="true">/</kbd>
+    </form></nav>
+</header>
+
+<main class="wrap">
+  <div class="crumbs">
+    <a class="chip" href="../index.html">&#9664; Back to shelf</a>
+    <span class="chip chip-choice">&#9733; Developer's Choice</span>
+    <span class="chip chip-red chip-warn">&#9679; Mouse Required</span>
+    <span class="chip chip-dark">October 25, 2026</span>
+    <span class="chip chip-dark">PICO-8 cart</span>
+  </div>
+
+  <h1 class="game-title">Vile Vignettes</h1>
+  <div class="game-sub">vile_vignettes.p8.png &mdash; released October 25, 2026</div>
+
+  <!-- the game, dead centre -->
+  <section class="console is-choice">
+    <div class="console-bar">
+      <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="console-file">html/vile_vignettes/vile_vignettes.html</span>
+      <span class="console-hint">Boots with the mouse</span>
+    </div>
+    <div class="screen">
+      <iframe src="../html/vile_vignettes/vile_vignettes.html"
+              title="Vile Vignettes"
+              loading="lazy"
+              allow="autoplay; fullscreen; gamepad; keyboard-map; xr-spatial-tracking"></iframe>
+    </div>
+  </section>
+
+  <div class="alert">
+    <svg class="alert-icon" width="26" height="30" viewBox="0 0 6 7" shape-rendering="crispEdges" aria-hidden="true">
+        <rect x="2" y="0" width="2" height="1" fill="#fff1e8"></rect>
+        <rect x="1" y="1" width="4" height="1" fill="#fff1e8"></rect>
+        <rect x="0" y="2" width="6" height="3" fill="#fff1e8"></rect>
+        <rect x="1" y="5" width="4" height="1" fill="#fff1e8"></rect>
+        <rect x="2" y="6" width="2" height="1" fill="#fff1e8"></rect>
+        <rect x="2" y="2" width="1" height="2" fill="#ff004d"></rect>
+      </svg>
+    <span><strong>Mouse required.</strong> This cart reads the pointer, so it needs a mouse or trackpad &mdash; keyboard and gamepad will not drive it.</span>
+  </div>
+  <div class="game-actions">
+    <a class="btn" href="../html/vile_vignettes/vile_vignettes.html" target="_blank" rel="noopener">&#9974; Open fullscreen</a>
+    <a class="btn btn-ghost" href="../carts/vile_vignettes.p8.png" download>&#11015; Download .p8.png</a>
+    <a class="btn btn-ghost" href="../index.html">&#9664; Shelf</a>
+  </div>
+
+  <section class="info-grid has-shot">
+    <div class="panel panel-shot">
+      <h2>Capture</h2>
+      <span class="thumb-frame thumb-frame-lg" data-thumb>
+        <img src="../imgs/vile_vignettes.gif" alt="Vile Vignettes gameplay capture" loading="lazy" decoding="async">
+        <span class="thumb-cue">&#9654; hover to play</span>
+      </span>
+      <p class="shot-note">vile_vignettes.gif &mdash; holds on frame one until you hover it.</p>
+    </div>
+    <div class="panel">
+      <h2>About this cart</h2>
+      <p>You are a portrait painter for halloween monsters.</p>
+      
+      <p style="margin-top:16px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;font-weight:800;color:var(--c5)">
+        Data pulled straight from games.json &mdash; edit it and rerun <code>node build.js</code>.
+      </p>
+    </div>
+    <div class="panel">
+      <h2>Controls</h2>
+      <ul class="keylist">
+        <li><kbd>Mouse</kbd> aim &amp; move</li>
+        <li><kbd>LMB</kbd> click / select</li>
+        <li><kbd>Esc</kbd> pause</li>
+        <li><kbd>Ctrl+R</kbd> restart</li>
+      </ul>
+    </div>
+  </section>
+
+  <nav class="pager">
+    <a class="prev" href="../games/apex-vector-60.html">
+      <span class="pager-lbl">&#9664; Previous cart</span>
+      <span class="pager-name">Apex Vector 60</span>
+    </a>
+    <a class="next" href="../games/quarter-end-bonus-or-bust.html">
+      <span class="pager-lbl">Next cart &#9654;</span>
+      <span class="pager-name">Quarter End: Bonus or Bust</span>
+    </a>
+  </nav>
+</main>
+
+<footer class="site-footer">
+  <span>PICO-67 // 11 cartridges in the vault</span>
+  <span>Built from <a href="../games.json">games.json</a> &mdash; powered by PICO-8</span>
+</footer>
+<script src="../assets/leaves.js" defer></script>
+<script src="../assets/thumbs.js" defer></script>
+<script src="../assets/search.js" defer></script>
+</body>
+</html>
