@@ -108,5 +108,15 @@
         "developersChoice": false,
         "thumbnail": "holiday_hideaway.gif",
         "desc": "A maniac mansion like christmas point and click adventure."
+    },
+    {
+        "name": "Tis The Season",
+        "cart": "tis_the_season.p8.png",
+        "html": "tis_the_season.html",
+        "date": "October 26, 2026",
+        "isMouseOnly": false,
+        "developersChoice": false,
+        "thumbnail": "tis_the_season.gif",
+        "desc": "A card battler roguelike."
     }
 ]
