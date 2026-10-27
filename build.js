@@ -120,7 +120,7 @@ function header(prefix, rightSlot) {
 function footer(prefix, count) {
   return `<footer class="site-footer">
   <span>PICO-67 // ${count} cartridges in the vault</span>
-  <span>Built from <a href="${prefix}games.json">games.json</a> &mdash; powered by PICO-8</span>
+  <span>AI assisted game library &mdash; powered by PICO-8</span>
 </footer>`;
 }
 
@@ -328,7 +328,10 @@ ${header(prefix, `<a class="chip chip-dark" href="${prefix}index.html">&#9664; A
   <h1 class="game-title">${esc(g.name)}</h1>
   <div class="game-sub">${esc(g.cart)} &mdash; released ${esc(g.date)}</div>
 
-  <!-- the game, dead centre -->
+  <!-- the game, dead centre. .console / .screen in assets/style.css size the iframe wider
+       than it is tall: the pico-8 shell draws a square canvas off the iframe's shortest side
+       and puts its pause / mute / fullscreen buttons in a ~54px column to the right of it,
+       so the iframe needs that gutter or the buttons are clipped off the edge. -->
   <section class="console${choice ? " is-choice" : ""}">
     <div class="console-bar">
       <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
@@ -344,7 +347,8 @@ ${header(prefix, `<a class="chip chip-dark" href="${prefix}index.html">&#9664; A
   </section>
 
 ${mouseAlert}  <div class="game-actions">
-    <a class="btn" href="${prefix}${shellPath}" target="_blank" rel="noopener">&#9974; Open fullscreen</a>
+    <a class="btn" href="${prefix}${shellPath}" target="_blank" rel="noopener"
+       data-p8-fullscreen title="Play full screen">&#9974; Fullscreen</a>
     ${cartPath ? `<a class="btn btn-ghost" href="${prefix}${cartPath}" download>&#11015; Download .p8.png</a>` : ""}
     <a class="btn btn-ghost" href="${prefix}index.html">&#9664; Shelf</a>
   </div>
@@ -382,6 +386,7 @@ ${footer(prefix, games.length)}
 <script src="${prefix}assets/leaves.js" defer></script>
 <script src="${prefix}assets/thumbs.js" defer></script>
 <script src="${prefix}assets/search.js" defer></script>
+<script src="${prefix}assets/fullscreen.js" defer></script>
 </body>
 </html>
 `;

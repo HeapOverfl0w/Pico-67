@@ -7,7 +7,7 @@
 <meta name="description" content="A maniac mansion like christmas point and click adventure.">
 <link rel="icon" href="../assets/favicon.svg">
 <link rel="stylesheet" href="../assets/style.css">
-<style>:root { --accent: #ff77a8; }</style>
+<style>:root { --accent: #ffa300; }</style>
 </head>
 <body class="page-game">
 <canvas id="leaves" aria-hidden="true"></canvas>
@@ -21,7 +21,7 @@
     <span class="logo-text">PICO-<span class="logo-num">67</span></span>
   </a>
   <nav class="header-nav"><a class="chip chip-dark" href="../index.html">&#9664; All games</a>
-    <span class="chip">Cart 05 / 12</span><form class="search" role="search" action="../index.html" data-index="../index.html">
+    <span class="chip">Cart 06 / 13</span><form class="search" role="search" action="../index.html" data-index="../index.html">
       <span class="search-mark" aria-hidden="true"></span>
       <input id="site-search" name="q" type="search" placeholder="Search carts" autocomplete="off" spellcheck="false" aria-label="Search games">
       <kbd class="search-key" aria-hidden="true">/</kbd>
@@ -40,7 +40,10 @@
   <h1 class="game-title">Holiday Hideaway</h1>
   <div class="game-sub">holiday_hideaway.p8.png &mdash; released October 24, 2026</div>
 
-  <!-- the game, dead centre -->
+  <!-- the game, dead centre. .console / .screen in assets/style.css size the iframe wider
+       than it is tall: the pico-8 shell draws a square canvas off the iframe's shortest side
+       and puts its pause / mute / fullscreen buttons in a ~54px column to the right of it,
+       so the iframe needs that gutter or the buttons are clipped off the edge. -->
   <section class="console">
     <div class="console-bar">
       <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
@@ -56,7 +59,8 @@
   </section>
 
   <div class="game-actions">
-    <a class="btn" href="../html/holiday_hideaway/holiday_hideaway.html" target="_blank" rel="noopener">&#9974; Open fullscreen</a>
+    <a class="btn" href="../html/holiday_hideaway/holiday_hideaway.html" target="_blank" rel="noopener"
+       data-p8-fullscreen title="Play full screen">&#9974; Fullscreen</a>
     <a class="btn btn-ghost" href="../carts/holiday_hideaway.p8.png" download>&#11015; Download .p8.png</a>
     <a class="btn btn-ghost" href="../index.html">&#9664; Shelf</a>
   </div>
@@ -103,11 +107,12 @@
 </main>
 
 <footer class="site-footer">
-  <span>PICO-67 // 12 cartridges in the vault</span>
-  <span>Built from <a href="../games.json">games.json</a> &mdash; powered by PICO-8</span>
+  <span>PICO-67 // 13 cartridges in the vault</span>
+  <span>AI assisted game library &mdash; powered by PICO-8</span>
 </footer>
 <script src="../assets/leaves.js" defer></script>
 <script src="../assets/thumbs.js" defer></script>
 <script src="../assets/search.js" defer></script>
+<script src="../assets/fullscreen.js" defer></script>
 </body>
 </html>

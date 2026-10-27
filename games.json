@@ -118,5 +118,15 @@
         "developersChoice": false,
         "thumbnail": "tis_the_season.gif",
         "desc": "A card battler roguelike."
+    },
+    {
+        "name": "Black Friday",
+        "cart": "black_friday.p8.png",
+        "html": "black_friday.html",
+        "date": "October 26, 2026",
+        "isMouseOnly": true,
+        "developersChoice": false,
+        "thumbnail": "black_friday.gif",
+        "desc": "Retail chaos."
     }
 ]

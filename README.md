@@ -14,6 +14,7 @@ pico-67/
 ├── assets/
 │   ├── style.css           <- neobrutalism + PICO-8 palette
 │   ├── search.js           <- the top-right search box
+│   ├── fullscreen.js       <- the ⛶ button on a game page
 │   ├── thumbs.js           <- hover-to-play GIF thumbnails
 │   ├── leaves.js           <- falling pixel-art leaves (background)
 │   └── favicon.svg
@@ -82,6 +83,19 @@ top of the (hidden) `<img>`, so nothing animates on its own. Hovering the card r
 on wherever it stopped. Touch devices (`(hover: none)`) and `prefers-reduced-motion` skip the
 freeze and just show the animated image. Images are `loading="lazy"` + `decoding="async"`, and
 rendered with `image-rendering: pixelated`.
+
+## Fullscreen (⛶)
+
+The **⛶ Fullscreen** button on a game page is not a link to a second tab any more: it reaches
+into the cart iframe (same origin, `allow="fullscreen"`) and runs the shell's own toggle —
+the exact same `p8_give_focus(); p8_request_fullscreen();` pair the little fullscreen icon in
+the corner of the canvas runs. So the shell notices it is fullscreen, hides its button column
+and resizes the canvas to the whole screen. `Esc` (or clicking the button again, if you can
+reach it) comes back out, and the button flips to *⛶ Exit fullscreen* while it is on.
+
+If fullscreen is refused (iOS Safari) or the shell does not expose the function, `assets/fullscreen.js`
+falls back to the link's original behaviour and opens the cart shell in a new tab — with JS off
+entirely, the button is still just that link.
 
 ## Search (top right)
 
