@@ -128,5 +128,25 @@
         "developersChoice": false,
         "thumbnail": "black_friday.gif",
         "desc": "Retail chaos."
+    },
+    {
+        "name": "Holiday Bake Off",
+        "cart": "holiday_bake_off.p8.png",
+        "html": "holiday_bake_off.html",
+        "date": "October 27, 2026",
+        "isMouseOnly": true,
+        "developersChoice": false,
+        "thumbnail": "holiday_bake_off.gif",
+        "desc": "Memorize desired cookies and make the recipes perfectly."
+    },
+    {
+        "name": "Chills",
+        "cart": "chills.p8.png",
+        "html": "chills.html",
+        "date": "October 28, 2026",
+        "isMouseOnly": false,
+        "developersChoice": true,
+        "thumbnail": "chills.gif",
+        "desc": "An empty frozen house where time stands still on Christmas Eve. Myst-like."
     }
 ]
