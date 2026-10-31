@@ -148,5 +148,45 @@
         "developersChoice": true,
         "thumbnail": "chills.gif",
         "desc": "An empty frozen house where time stands still on Christmas Eve. Myst-like."
+    },
+    {
+        "name": "Cozy Burrow",
+        "cart": "cozy_burrow.p8.png",
+        "html": "cozy_burrow.html",
+        "date": "October 31, 2026",
+        "isMouseOnly": false,
+        "developersChoice": true,
+        "thumbnail": "cozy_burrow.gif",
+        "desc": "Collect resources and build out your mouse burrow to attract more mice citizens. Super cozy."
+    },
+    {
+        "name": "Husk Survivors",
+        "cart": "husk_survivors.p8.png",
+        "html": "husk_survivors.html",
+        "date": "October 30, 2026",
+        "isMouseOnly": false,
+        "developersChoice": true,
+        "thumbnail": "husk_survivors.gif",
+        "desc": "Survivor's like trapped in a corn maze with inventory tetris management."
+    },
+    {
+        "name": "Battle of the Bulge",
+        "cart": "battle_of_the_bulge.p8.png",
+        "html": "battle_of_the_bulge.html",
+        "date": "October 31, 2026",
+        "isMouseOnly": true,
+        "developersChoice": false,
+        "thumbnail": "battle_of_the_bulge.gif",
+        "desc": "Side scroller physics based WW2 shooter."
+    },
+    {
+        "name": "Beer League",
+        "cart": "beer_league.p8.png",
+        "html": "beer_league.html",
+        "date": "October 29, 2026",
+        "isMouseOnly": false,
+        "developersChoice": false,
+        "thumbnail": "beer_league.gif",
+        "desc": "Yetis vs Lumberjacks hockey madness."
     }
 ]
